@@ -1,0 +1,5 @@
+git config --global user.email "amarendar@gmail.com"
+
+git config --global user.name "Amarendar"
+
+function gc { git add . && git commit -m "update" && git push origin main ; }
